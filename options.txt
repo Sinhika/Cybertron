@@ -3,7 +3,7 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:0.48591548
 saturation:0.0
-renderDistance:12
+renderDistance:10
 guiScale:0
 particles:0
 bobView:true
@@ -11,7 +11,7 @@ anaglyph3d:false
 advancedOpengl:false
 maxFps:120
 fboEnable:true
-difficulty:2
+difficulty:0
 fancyGraphics:true
 ao:1
 clouds:true
@@ -90,6 +90,15 @@ key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
 key_waila.keybind.recipe:81
 key_waila.keybind.usage:75
+key_key.cofh.empower:47
+key_key.cofh.multimode:46
+key_key.journeymap.map_toggle:36
+key_key.journeymap.zoom_in:13
+key_key.journeymap.zoom_out:12
+key_key.journeymap.day:26
+key_key.journeymap.night:27
+key_key.journeymap.minimap_preset:43
+key_key.journeymap.create_waypoint:48
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
