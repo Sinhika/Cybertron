@@ -3,6 +3,11 @@ logs/
 resourcepacks/
 saves/
 screenshots/
-mods/
+!mods/resources/ruins
 asm/
 *~
+*.png
+*.jar
+*.zip
+!mods/ruins.txt
+mods/ruins_log.txt

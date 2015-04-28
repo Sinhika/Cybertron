@@ -1,0 +1,42 @@
+# Gilly's City Settlement
+
+weight=1
+uniqueMinDistance=8000
+embed_into_distance=2
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava,Natura:Cloud
+dimensions=1,5,4
+max_leveling=2
+leveling_buffer=0
+preserve_water=0
+preserve_lava=0
+preserve_plants=0
+adjoining_template=Gilly/GillyPatio;0;4;-13;100
+adjoining_template=Gilly/GillyPatio;-13;4;0;100
+adjoining_template=Gilly/GillyPatio;0;4;13;100
+adjoining_template=Gilly/GillyPatio;13;4;0;100
+
+rule1=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC5 ~-32 ~0 ~-32:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC4 ~-32 ~0 ~-32:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT7 ~-32 ~0 ~-32:@
+rule2=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC1 ~-37 ~0 ~-13:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC5 ~-37 ~0 ~-10:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC3 ~-37 ~0 ~-10:@
+rule3=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC2 ~-37 ~0 ~12:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC4 ~-37 ~0 ~10:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC6 ~-37 ~0 ~10:@
+rule4=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC1 ~-35 ~0 ~35:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC4 ~-32 ~0 ~32:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT7 ~-32 ~0 ~32:@
+rule5=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC8 ~-12 ~0 ~-37:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC6 ~-10 ~0 ~-37:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC3 ~-10 ~0 ~-37:@
+rule6=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT1 ~-17 ~0 ~-17:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT5 ~-17 ~0 ~-17:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT3 ~-17 ~0 ~-17:@
+rule7=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT2 ~-17 ~0 ~17:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT4 ~-17 ~0 ~17:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT3 ~-17 ~0 ~17:@
+rule8=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC8 ~-12 ~0 ~37:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC5 ~-10 ~0 ~37:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC6 ~-10 ~0 ~37:@
+rule9=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC1 ~12 ~0 ~-37:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC5 ~10 ~0 ~-37:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC6 ~10 ~0 ~-37:@
+rule10=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT2 ~17 ~0 ~-17:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT5 ~17 ~0 ~-17:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT3 ~17 ~0 ~-17:@
+rule11=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT8 ~17 ~0 ~17:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT5 ~17 ~0 ~17:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT3 ~17 ~0 ~17:@
+rule12=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC1 ~13 ~0 ~37:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC4 ~10 ~0 ~37:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC3 ~10 ~0 ~37:@
+rule13=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC2 ~35 ~0 ~-35:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT7 ~32 ~0 ~-32:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC6 ~32 ~0 ~-32:@
+rule14=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC2 ~35 ~0 ~-12:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC4 ~35 ~0 ~-10:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC6 ~35 ~0 ~-10:@
+rule15=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC8 ~35 ~0 ~12:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC4 ~35 ~0 ~10:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC3 ~35 ~0 ~10:@
+rule16=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC8 ~35 ~0 ~35:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyT7 ~32 ~0 ~32:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyC6 ~32 ~0 ~32:@
+rule17=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyTower ~0 ~2 ~0:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyFountain ~0 ~2 ~0:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyFountainTower ~0 ~2 ~0:@
+
+layer
+1,2,3,4
+5,6,7,8
+9,17,11,12
+10,14,15,16
+13,0,0,0
+endlayer

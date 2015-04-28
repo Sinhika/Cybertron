@@ -1,0 +1,20 @@
+# Gilly's farmhouse building spawn proxy
+
+weight=1
+embed_into_distance=4
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
+dimensions=1,1,1
+cut_in_buffer=0
+max_leveling=2
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+preserve_plants=0
+adjoining_template=Gilly/GillyHut;0;15;0;100
+
+rule1=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyS1 ~18 ~4 ~0:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyS1 ~-18 ~4 ~0:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyS1 ~0 ~4 ~18:@,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyS1 ~0 ~4 ~-18:@
+
+layer
+1
+endlayer
+
