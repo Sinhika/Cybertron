@@ -1,0 +1,34 @@
+{
+    "eximite": {
+        "template": "uniform",
+        "block": {"name": "Metallurgy:ender.ore", "metadata": 0},
+        "material": "end_stone",
+        "clusterSize": 4,
+        "numClusters": 6,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [ 1 ]
+     },
+    "meutoite": {
+        "template": "uniform",
+        "block": {"name": "Metallurgy:ender.ore", "metadata": 1},
+        "material": "end_stone",
+        "clusterSize": 3,
+        "numClusters": 3,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [ 1 ]
+     }
+}
