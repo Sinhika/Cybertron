@@ -27,7 +27,9 @@
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 4},
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 5},
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 6},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7}
+            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7},
+            {"name": "chisel:limestone", "metadata": 0},
+            {"name": "chisel:marble", "metadata": 0}
         ],
         "clusterSize": 6,
         "numClusters": 5,
@@ -69,7 +71,9 @@
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 4},
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 5},
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 6},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7}
+            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7},
+            {"name": "chisel:limestone", "metadata": 0},
+            {"name": "chisel:marble", "metadata": 0}
         ],
         "clusterSize": 4,
         "numClusters": 5,
@@ -111,7 +115,9 @@
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 4},
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 5},
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 6},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7}
+            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7},
+            {"name": "chisel:limestone", "metadata": 0},
+            {"name": "chisel:marble", "metadata": 0}
         ],
         "clusterSize": 4,
         "numClusters": 5,
@@ -153,7 +159,9 @@
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 4},
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 5},
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 6},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7}
+            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7},
+            {"name": "chisel:limestone", "metadata": 0},
+            {"name": "chisel:marble", "metadata": 0}
         ],
         "clusterSize": 3,
         "numClusters": 4,
@@ -195,7 +203,9 @@
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 4},
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 5},
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 6},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7}
+            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7},
+            {"name": "chisel:limestone", "metadata": 0},
+            {"name": "chisel:marble", "metadata": 0}
         ],
         "clusterSize": 3,
         "numClusters": 4,
@@ -237,7 +247,9 @@
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 4},
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 5},
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 6},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7}
+            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7},
+            {"name": "chisel:limestone", "metadata": 0},
+            {"name": "chisel:marble", "metadata": 0}
         ],
         "clusterSize": 3,
         "numClusters": 3,
@@ -279,7 +291,9 @@
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 4},
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 5},
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 6},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7}
+            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7},
+            {"name": "chisel:limestone", "metadata": 0},
+            {"name": "chisel:marble", "metadata": 0}
         ],
         "clusterSize": 3,
         "numClusters": 3,
@@ -321,7 +335,9 @@
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 4},
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 5},
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 6},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7}
+            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7},
+            {"name": "chisel:limestone", "metadata": 0},
+            {"name": "chisel:marble", "metadata": 0}
         ],
         "clusterSize": 3,
         "numClusters": 2,
@@ -363,7 +379,9 @@
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 4},
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 5},
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 6},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7}
+            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7},
+            {"name": "chisel:limestone", "metadata": 0},
+            {"name": "chisel:marble", "metadata": 0}
         ],
         "clusterSize": 4,
         "numClusters": 2,
@@ -405,7 +423,9 @@
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 4},
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 5},
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 6},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7}
+            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7},
+            {"name": "chisel:limestone", "metadata": 0},
+            {"name": "chisel:marble", "metadata": 0}
         ],
         "clusterSize": 3,
         "numClusters": 2,
@@ -447,7 +467,9 @@
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 4},
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 5},
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 6},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7}
+            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7},
+            {"name": "chisel:limestone", "metadata": 0},
+            {"name": "chisel:marble", "metadata": 0}
         ],
         "clusterSize": 3,
         "numClusters": 2,

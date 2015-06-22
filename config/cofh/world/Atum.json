@@ -1,5 +1,5 @@
 {
-    "coal": {
+    "atum_coal": {
         "template": "uniform",
         "block": "atum:tile.coalOre",
         "material": "atum:tile.stone",
@@ -13,7 +13,7 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [ 17 ]
     },
-    "iron": {
+    "atum_iron": {
         "template": "uniform",
         "block": "atum:tile.ironOre",
         "material": "atum:tile.stone",
@@ -27,7 +27,7 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [ 17 ]
     },
-    "gold": {
+    "atum_gold": {
         "template": "uniform",
         "block": "atum:tile.goldOre",
         "material": "atum:tile.stone",
@@ -41,7 +41,7 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [ 17 ]
     },
-    "redstone": {
+    "atum_redstone": {
         "template": "uniform",
         "block": "atum:tile.redstoneOre",
         "material": "atum:tile.stone",
@@ -55,7 +55,7 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [ 17 ]
     },
-    "diamond": {
+    "atum_diamond": {
         "template": "uniform",
         "block": "atum:tile.diamondOre",
         "material": "atum:tile.stone",
@@ -69,7 +69,7 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [ 17 ]
     },
-    "lapis": {
+    "atum_lapis": {
         "template": "normal",
         "block": "atum:tile.lapisOre",
         "material": "atum:tile.stone",
@@ -84,7 +84,7 @@
         "dimensions": [ 17 ]
     },
     "goldquartz_geode": {
-        "template": "normal",
+        "template": "uniform",
         "generator": "geode",
         "block" : "appliedenergistics2:tile.OreQuartz",
         "material": "atum:tile.stone",
@@ -93,6 +93,60 @@
         "filler" : "atum:tile.goldOre",
         "clusterSize": 8,
         "numClusters": 2,
+        "minHeight": 0,
+        "maxHeight": 32,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [ 17 ]
+    },
+    "silveramethyst_geode": {
+        "template": "uniform",
+        "generator": "geode",
+        "block" : "bluepower:amethyst_ore",
+        "material": "atum:tile.stone",
+        "crust" : "bluepower:basalt",
+        "hollow" : "true",
+        "filler" : {"name": "ThermalFoundation:Ore", "metadata": 2},
+        "clusterSize": 8,
+        "numClusters": 4,
+        "minHeight": 0,
+        "maxHeight": 32,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [ 17 ]
+    },
+    "platinumdiamond_geode": {
+        "template": "uniform",
+        "generator": "geode",
+        "block" : "atum:tile.diamondOre",
+        "material": "atum:tile.stone",
+        "crust" : "bluepower:basalt",
+        "hollow" : "true",
+        "filler" : {"name": "ThermalFoundation:Ore", "metadata": 5 },
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 0,
+        "maxHeight": 32,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [ 17 ]
+    },
+    "alumsapphire_geode": {
+        "template": "uniform",
+        "generator": "geode",
+        "block" : [
+            {"name": "bluepower:ruby_ore", "weight": 20},
+            {"name": "bluepower:sapphire_ore", "weight": 80}
+        ],
+        "material": "atum:tile.stone",
+        "crust" : {"name": "chisel:limestone", "metadata": 0 },
+        "hollow" : "true",
+        "filler" : {"name": "TConstruct:SearedBrick", "metadata": 5 },
+        "clusterSize": 8,
+        "numClusters": 4,
         "minHeight": 0,
         "maxHeight": 32,
         "biomeRestriction": "none",

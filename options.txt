@@ -70,9 +70,9 @@ key_key.command:53
 key_key.screenshot:60
 key_key.togglePerspective:63
 key_key.smoothCamera:0
-key_key.sprint:29
-key_key.streamStartStop:64
-key_key.streamPauseUnpause:65
+key_key.sprint:0
+key_key.streamStartStop:0
+key_key.streamPauseUnpause:0
 key_key.streamCommercial:0
 key_key.streamToggleMic:0
 key_key.fullscreen:87
@@ -89,10 +89,14 @@ key_doggytalents.key.come:200
 key_doggytalents.key.stay:208
 key_doggytalents.key.ok:203
 key_doggytalents.key.heel:205
+key_key.archimedes.up:45
+key_key.archimedes.down:44
+key_key.archimedes.brake:46
+key_key.archimedes.align:13
+key_key.archimedes.decompile:43
+key_key.archimedes.shipinv:37
 key_key.personalBackpack:48
 key_Cosmetic Inventory:46
-key_MoCreatures Dive:33
-key_MoCreatures GUI:64
 key_igwmod.keys.wiki:23
 key_Pneumatic Helmet Options:33
 key_Pneumatic Helmet Hack:35
@@ -112,9 +116,6 @@ key_key.tarmor:24
 key_key.tgoggles:34
 key_key.tbelt:48
 key_key.tzoom:44
-key_Glide:34
-key_Glider Lift:33
-key_Beetle Ram Attack:19
 key_key.cofh.empower:47
 key_key.cofh.multimode:46
 key_railcraft.keybind.loco.faster:52
@@ -122,13 +123,6 @@ key_railcraft.keybind.loco.slower:51
 key_railcraft.keybind.loco.mode:50
 key_railcraft.keybind.loco.whistle:49
 key_key.control:29
-key_key.journeymap.map_toggle:36
-key_key.journeymap.zoom_in:13
-key_key.journeymap.zoom_out:12
-key_key.journeymap.day:26
-key_key.journeymap.night:27
-key_key.journeymap.minimap_preset:43
-key_key.journeymap.create_waypoint:48
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
