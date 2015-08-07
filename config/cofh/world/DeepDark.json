@@ -1,0 +1,236 @@
+{
+    "DDaluminum": {
+        "template": "uniform",
+        "block": [
+            {"name": "TConstruct:SearedBrick", "metadata": 5 }
+        ],
+        "clusterSize": 10,
+        "numClusters": 8,
+        "minHeight": 138,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [ -100 ]
+    },
+    "DDcertus quartz": {
+        "template": "uniform",
+        "block": [
+            {"name": "appliedenergistics2:tile.OreQuartz", "weight":93},
+            {"name": "appliedenergistics2:tile.OreQuartzCharged", "weight":7}
+        ],
+        "clusterSize": 4,
+        "numClusters": 3,
+        "minHeight": 138,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [ "all" ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [ -100 ]
+    },
+    "DDcopper": {
+        "template": "uniform",
+        "block": "ThermalFoundation:Ore",
+        "clusterSize": 8,
+        "numClusters": 10,
+        "minHeight": 138,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [ -100 ]
+    },
+    "DDgems" :{
+        "template": "uniform",
+        "block": [
+            { "name": "diamond_ore", "weight" : 35 },
+            { "name": "bluepower:amethyst_ore", "weight" : 15 },
+            { "name": "bluepower:ruby_ore", "weight" : 15 },
+            { "name": "bluepower:sapphire_ore", "weight" : 15 },
+            { "name": "emerald_ore", "weight" : 10 },
+            { "name": "appliedenergistics2:tile.OreQuartz", "weight" : 10}
+        ],
+        "clusterSize": 3,
+        "numClusters": 1,
+         "minHeight": 138,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [ -100 ]
+    },
+    "DDlead": {
+        "template": "uniform",
+        "block": [
+            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 90},
+            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 10}
+        ],
+        "clusterSize": 8,
+        "numClusters": 8,
+        "minHeight": 138,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [ -100 ]
+    },
+    "DDmanganese": {
+        "template": "uniform",
+        "block": {"name": "Metallurgy:base.ore", "metadata": 2},
+        "clusterSize": 4,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 128,
+        "retrogen": "true",
+       "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [ -100 ]
+    },        
+    "DDnickel": {
+        "template": "uniform",
+        "block": {"name": "ThermalFoundation:Ore", "metadata": 4},
+        "clusterSize": 4,
+        "numClusters": 3,
+        "minHeight": 138,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [ -100 ]
+    },
+    "DDplatinum": {
+        "template": "uniform",
+        "generator": "sparse-cluster",
+        "block": [
+            {"name": "ThermalFoundation:Ore", "metadata": 5, "weight": 80},
+            {"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 20}
+        ],
+        "clusterSize": 3,
+        "numClusters": 1,
+        "minHeight": 138,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [ -100 ]
+    },
+    "DDsilver": {
+        "template": "uniform",
+        "block": [
+            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight":80},
+            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight":20}
+        ],
+        "clusterSize": 8,
+        "numClusters": 6,
+        "minHeight": 138,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [ -100 ]
+    },
+    "DDteslatite": {
+        "template": "uniform",
+        "block": "bluepower:teslatite_ore",
+        "clusterSize": 4,
+        "numClusters": 1,
+       "minHeight": 230,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [ -100 ]
+    },
+    "DDtin": {
+        "template": "uniform",
+        "block": {"name": "ThermalFoundation:Ore", "metadata": 1},
+        "clusterSize": 8,
+        "numClusters": 8,
+        "minHeight": 138,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [ -100 ]
+    },
+    "DDtungsten": {
+        "template": "uniform",
+        "block": "bluepower:tungsten_ore",
+        "clusterSize": 3,
+        "numClusters": 1,
+        "minHeight": 138,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [ -100 ]
+    },
+    "DDyellorite" : {
+        "template": "uniform",
+        "block": "BigReactors:YelloriteOre",
+        "clusterSize": 8,
+        "numClusters": 2,
+        "minHeight": 138,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [ -100 ]
+    },
+   "DDzinc": {
+        "template": "uniform",
+        "block": [ 
+            {"name": "Metallurgy:precious.ore", "metadata": 0, "weight": 90},
+            {"name": "iron_ore", "weight": 10}
+        ],
+        "clusterSize": 6,
+        "numClusters": 2,
+        "minHeight": 138,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [ -100 ]
+    }
+}
+

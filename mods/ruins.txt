@@ -17,7 +17,7 @@
 #     it will choose a generic ruin from the folder of the same name.
 
 tries_per_chunk_normal=2
-chance_to_spawn_normal=4.0
+chance_to_spawn_normal=8.0
 chance_for_site_normal=10.0
 
 tries_per_chunk_nether=2
@@ -28,7 +28,7 @@ disableRuinSpawnCoordsLogging=true
 # minimum distance a template must have from instances of itself
 templateInstancesMinDistance=2048
 # minimum distance a template must have from any other template
-anyRuinsMinDistance=128
+anyRuinsMinDistance=88
 # dimension IDs whitelisted for ruins spawning, add custom dimensions IDs here as needed
 allowedDimensions=0,1,-1
 

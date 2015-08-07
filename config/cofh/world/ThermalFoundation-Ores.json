@@ -2,7 +2,7 @@
     "aluminum_bauxite": {
         "template": "uniform",
         "block": [
-            {"name": "TConstruct:SearedBrick", "metadata": 5 },
+            {"name": "TConstruct:SearedBrick", "metadata": 5 }
         ],
         "material": [
             {"name": "stone", "metadata": 0},
@@ -63,7 +63,10 @@
             {"name": "water"},
             {"name": "gravel"},
             {"name": "sand"},
+            {"name": "snow"},
+            {"name": "snow_layer"},
             {"name": "stone", "metadata": 0},
+            {"name": "Railcraft:cube", "metadata": 7},
             {"name": "UndergroundBiomes:igneousStone", "metadata": 0},
             {"name": "UndergroundBiomes:igneousStone", "metadata": 1},
             {"name": "UndergroundBiomes:igneousStone", "metadata": 2},
@@ -123,7 +126,25 @@
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 5},
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 6},
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7},
-            {"name": "chisel:limestone", "metadata": 0}
+            {"name": "chisel:limestone", "metadata": 0},
+            {"name": "UndergroundBiomes:igneousStone", "metadata": 0},
+            {"name": "UndergroundBiomes:igneousStone", "metadata": 1},
+            {"name": "UndergroundBiomes:igneousStone", "metadata": 2},
+            {"name": "UndergroundBiomes:igneousStone", "metadata": 3},
+            {"name": "UndergroundBiomes:igneousStone", "metadata": 4},
+            {"name": "UndergroundBiomes:igneousStone", "metadata": 5},
+            {"name": "UndergroundBiomes:igneousStone", "metadata": 6},
+            {"name": "UndergroundBiomes:igneousStone", "metadata": 7},
+            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 0},
+            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 1},
+            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 2},
+            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 3},
+            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 4},
+            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 5},
+            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 6},
+            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 7},
+            {"name": "chisel:marble", "metadata": 0},
+            {"name": "Railcraft:cube", "metadata": 6}
         ],
         "clusterSize": 3,
         "numClusters": 1,
@@ -135,10 +156,59 @@
             {"type": "dictionary", "entry": "RIVER"}
         ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 17, 1, 66 ]
+        "dimensions": [ -1, 17, 7, 1, 66 ]
+    },
+    "alluvial_gravel_bed": {
+        "template": "uniform",
+        "block": [
+            { "name" : "gravel", "weight" : 90},
+            { "name" : "TConstruct:GravelOre", "metadata" : 1, "weight" : 1},
+            { "name" : "TConstruct:GravelOre", "metadata" : 2, "weight" : 1},
+            { "name" : "TConstruct:GravelOre", "metadata" : 3, "weight" : 8}
+        ],
+        "material": [
+            {"name": "UndergroundBiomes:igneousStone", "metadata": 0},
+            {"name": "UndergroundBiomes:igneousStone", "metadata": 1},
+            {"name": "UndergroundBiomes:igneousStone", "metadata": 2},
+            {"name": "UndergroundBiomes:igneousStone", "metadata": 3},
+            {"name": "UndergroundBiomes:igneousStone", "metadata": 4},
+            {"name": "UndergroundBiomes:igneousStone", "metadata": 5},
+            {"name": "UndergroundBiomes:igneousStone", "metadata": 6},
+            {"name": "UndergroundBiomes:igneousStone", "metadata": 7},
+            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 0},
+            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 1},
+            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 2},
+            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 3},
+            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 4},
+            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 5},
+            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 6},
+            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 7},
+            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 0},
+            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 1},
+            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 2},
+            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 3},
+            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 4},
+            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 5},
+            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 6},
+            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7},
+            {"name": "chisel:limestone", "metadata": 0},
+            {"name": "sandstone", "metadata": 0}
+        ],
+        "clusterSize": 16,
+        "numClusters": 3,
+        "minHeight": 32,
+        "maxHeight": 64,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            1, -1, 7, 17, 66
+        ]
     },
     "amethyst" :{
         "template": "uniform",
+        "block": { "name": "bluepower:amethyst_ore", "weight" : 15 },
         "material": [
             {"name": "stone", "metadata": 0},
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 0},
@@ -171,15 +241,15 @@
         ],
         "clusterSize": 3,
         "numClusters": 1,
-        "minHeight": 10,
+        "minHeight": 1,
         "maxHeight": 96,
         "retrogen": "true",
         "biomeRestriction": "whitelist",
         "biomes": [
-            {"type": "dictionary", "entry": ["MOUNTAIN", "HILLS"]}
+            {"type": "dictionary", "entry": "MOUNTAIN"}
         ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 17, 1, 66 ]
+        "dimensions": [ -1, 17, 1, 7, 66 ]
     },
     "bitumen": {
         "template": "uniform",
@@ -241,11 +311,12 @@
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 6},
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7},
             {"name": "chisel:limestone", "metadata": 0},
-            {"name": "chisel:marble", "metadata": 0}
+            {"name": "chisel:marble", "metadata": 0},
+            {"name": "Railcraft:cube", "metadata": 6}
         ],
         "clusterSize": 4,
         "numClusters": 3,
-        "minHeight": 17,
+        "minHeight": 1,
         "maxHeight": 120,
         "retrogen": "true",
         "biomeRestriction": "none",
@@ -287,15 +358,13 @@
         ],
         "clusterSize": 8,
         "numClusters": 5,
-        "minHeight": 33,
+        "minHeight": 1,
         "maxHeight": 64,
         "retrogen": "true",
-        "biomeRestriction": "whitelist",
-        "biomes": [
-            {"type": "dictionary", "entry": ["WET","SANDY","WATER"] }
-        ],
+        "biomeRestriction": "none",
+        "biomes": [ "all" ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 1, 17, 66 ]
+        "dimensions": [ -1, 1, 7, 17, 66 ]
     },
     "copperHigh": {
         "template": "uniform",
@@ -333,11 +402,11 @@
         "clusterSize": 4,
         "numClusters": 6,
         "minHeight": 68,
-        "maxHeight": 128,
+        "maxHeight": 228,
         "retrogen": "true",
-        "biomeRestriction": "blacklist",
-        "biomes": [
-            {"type": "dictionary", "entry": ["WET","SANDY","WATER"] }
+        "biomeRestriction": "whitelist",
+        "biomes": [ 
+            {"type": "dictionary", "entry": "MOUNTAIN"}
         ],
         "dimensionRestriction": "blacklist",
         "dimensions": [ -1, 1, 7, 17, 66 ]
@@ -379,13 +448,11 @@
         ],
         "clusterSize": 5,
         "numClusters": 4,
-        "minHeight": 10,
+        "minHeight": 1,
         "maxHeight": 35,
         "retrogen": "true",
-        "biomeRestriction": "whitelist",
-        "biomes": [
-            {"type": "dictionary", "entry": ["MOUNTAINS", "HILLS", "PLAINS"] }
-        ],
+        "biomeRestriction": "none",
+        "biomes": [ "all" ],
         "dimensionRestriction": "blacklist",
         "dimensions": [ -1, 1, 7, 17, 66 ]
     },
@@ -470,9 +537,8 @@
         "minHeight": 1,
         "maxHeight": 128,
         "retrogen": "true",
-        "biomeRestriction": "whitelist",
+        "biomeRestriction": "none",
         "biomes": [
-            {"type": "dictionary", "entry": ["OCEAN","SANDY","JUNGLE"] }
         ],
         "dimensionRestriction": "blacklist",
         "dimensions": [ -1, 1, 7, 17, 66 ]
@@ -515,7 +581,7 @@
         ],
         "clusterSize": 4,
         "numClusters": 1,
-        "minHeight": 5,
+        "minHeight": 1,
         "maxHeight": 20,
         "retrogen": "true",
         "biomeRestriction": "whitelist",
@@ -564,7 +630,7 @@
         ],
         "clusterSize": 3,
         "numClusters": 1,
-        "minHeight": 5,
+        "minHeight": 1,
         "maxHeight": 64,
         "retrogen": "true",
         "biomeRestriction": "none",
@@ -572,7 +638,7 @@
             "all"
         ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 1, 17, 66 ]
+        "dimensions": [ -1, 1, 7, 17, 66 ]
     },
     "desert_silver_lead": {
         "template": "uniform",
@@ -611,7 +677,7 @@
         ],
         "clusterSize": 6,
         "numClusters": 1,
-        "minHeight": 5,
+        "minHeight": 1,
         "maxHeight": 32,
         "retrogen": "true",
         "biomeRestriction": "whitelist",
@@ -619,7 +685,7 @@
             {"type": "dictionary", "entry": ["SANDY"] }
         ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 1, 17, 66 ]
+        "dimensions": [ -1, 1, 7, 17, 66 ]
     },
     "sulfur": {
         "template": "uniform",
@@ -653,7 +719,7 @@
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7},
             {"name": "chisel:limestone", "metadata": 0}
         ],
-        "clusterSize": 4,
+        "clusterSize": 3,
         "numClusters": 1,
         "minHeight": 1,
         "maxHeight": 32,
@@ -697,8 +763,8 @@
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7},
             {"name": "chisel:limestone", "metadata": 0}
         ],
-        "clusterSize": 6,
-        "numClusters": 1,
+        "clusterSize": 4,
+        "numClusters": 2,
         "minHeight": 1,
         "maxHeight": 20,
         "retrogen": "true",
@@ -743,7 +809,7 @@
         ],
         "clusterSize": 8,
         "numClusters": 5,
-        "minHeight": 20,
+        "minHeight": 1,
         "maxHeight": 55,
         "retrogen": "true",
         "biomeRestriction": "none",
@@ -751,7 +817,7 @@
             "all"
         ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 1, 17, 66 ]
+        "dimensions": [ -1, 1, 7, 17, 66 ]
     },
     "alluvial_tin": {
         "template": "uniform",
@@ -789,16 +855,14 @@
             {"name": "sandstone"}
         ],
         "clusterSize": 6,
-        "numClusters": 3,
+        "numClusters": 4,
         "minHeight": 58,
         "maxHeight": 70,
         "retrogen": "true",
-        "biomeRestriction": "whitelist",
-        "biomes": [
-            {"type": "dictionary", "entry": ["RIVER","SANDY"] }
-        ],
+        "biomeRestriction": "none",
+        "biomes": [ "all" ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 1, 17, 66 ]
+        "dimensions": [ -1, 1, 7, 17, 66 ]
     },
     "tungsten": {
         "template": "uniform",
@@ -837,10 +901,8 @@
         "minHeight": 1,
         "maxHeight": 32,
         "retrogen": "true",
-        "biomeRestriction": "blacklist",
-        "biomes": [
-            {"type": "dictionary", "entry": ["OCEAN","MOUNTAINS"] }
-        ],
+        "biomeRestriction": "none",
+        "biomes": [ "all"  ],
         "dimensionRestriction": "blacklist",
         "dimensions": [ -1, 17, 7, 1, 66 ]
      },
@@ -878,7 +940,7 @@
             {"name": "UndergroundBiomes:metamorphicStone", "metadata": 7}
         ],
         "clusterSize": 8,
-        "numClusters": 2,
+        "numClusters": 3,
         "minHeight": 1,
         "maxHeight": 64,
         "retrogen": "true",
@@ -926,7 +988,7 @@
         ],
         "clusterSize": 6,
         "numClusters": 2,
-        "minHeight": 21,
+        "minHeight": 1,
         "maxHeight": 72,
         "retrogen": "true",
         "biomeRestriction": "none",

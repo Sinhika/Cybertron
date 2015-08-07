@@ -1,2 +1,2 @@
 #ThebombzenAPI basic properties
-#Wed Jun 24 17:27:09 CDT 2015
+#Sat Aug 01 19:49:12 CDT 2015
