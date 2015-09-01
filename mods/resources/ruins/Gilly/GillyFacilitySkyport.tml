@@ -1,0 +1,33 @@
+# Gilly's Skyport/mining base
+
+weight=1
+embed_into_distance=4
+acceptable_target_blocks=
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava,ice,bedrock,netherrack,soul_sand,Natura:Cloud
+dimensions=3,1,1
+max_leveling=4
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+preserve_plants=0
+preventRotation=1
+
+# 36 45 4
+
+rule1=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillySkyportRooms ~-2 ~4 ~8 0:@
+rule2=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillySkyportAccess ~-1 ~3 ~0 0:@
+rule3=7,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillySkyportLanding ~0 ~2 ~0 0:@
+
+layer
+1
+endlayer
+
+layer
+2
+endlayer
+
+layer
+3
+endlayer
+
+

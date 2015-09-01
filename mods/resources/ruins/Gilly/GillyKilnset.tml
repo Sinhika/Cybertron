@@ -2,7 +2,7 @@
 
 weight=1
 embed_into_distance=2
-unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava,ice,bedrock,netherrack,soul_sand,Natura:Cloud
 dimensions=6,3,9
 cut_in_buffer=0
 max_leveling=2
@@ -20,11 +20,11 @@ rule4=0,100,stone_brick_stairs-3
 rule5=0,100,stone_brick_stairs-0
 rule6=0,100,stone_brick_stairs-2
 
-rule7=0,100,IInventory;furnace;coal#3#0#2-5
+rule7=0,100,furnace-5
 rule8=0,100,cauldron
 rule9=0,100,cobblestone_wall
-rule10=0,100,IInventory;furnace;#0+flower_pot#8#0#3-5
-rule11=0,100,IInventory;furnace;#0+clay#4#0#1-5
+rule10=0,100,furnace-5
+rule11=0,100,furnace-5
 
 #bricks:
 # rule1=0,100,brick_block

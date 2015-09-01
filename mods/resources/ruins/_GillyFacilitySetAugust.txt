@@ -1,0 +1,66 @@
+
+August 2015 Facility templates: addition to my original set
+
+   Put the folder "Gilly" into /mods/resources/ruins along with the biome folders, merge with existing Gilly folder if exists
+
+   Files with "Facility" in name are the main ones used in /generic folder
+
+
+
+<<<<<List of templates with basic descriptions>>>>>
+
+
+ (leave a copy of everything in the Gilly folder, as most are called by another template)
+  Files marked with "Modded" in name use Tinkers Construct and Chisel2
+
+
+---* <<<place copies of these files in /generic folder>>>
+
+  * GillyFacilitySkyport       (tech-themed underground launchpad/mining base)
+  * GillyModdedFacilitySkyport (version of above with mod blocks)
+  * GillyModdedFacilityHangar  (tech-themed underground cargo hangar)
+  * GillyTreeStumpOak          (huge rotted-out tree stump using oak logs and mushroom blocks)
+  * GillyFort                  (weathered stonebrick wall, parkour entrance top with fence and slabs)
+  * GillyFoodFort              (same as above with farm in center)
+
+---** <<<place in /ocean biome folder>>>
+  ** GillyFacilityMarina        (tech-themed underwater ocean base)
+
+-------------------------------------------------------------------
+
+ -(Updates to original ruinset)
+ + GillyWheat     (improvements to weathered stonebrick generation)
+ + GillyTower     (extra layer of foundation)
+
+
+ -(the following are mainly support files)
+ -(files marked with + are structures and can go in /generic folder)
+
+ -(used in my underground facilities)
+
+   GillySkyportAccess    (personnel access for Skyport)
+   GillySkyportRooms     (main floorplan Skyport facility)
+   GillySkyportLanding   (above-ground section of Skyport)
+   GillyMarinaAccess     (main access shaft for Marina)
+   GillyMarinaDock       (main floorplay Marina facility)
+   GillyMarinaLanding    (Helipad for Marina)
+
+ -(These versions use modded blocks from Tcon and Chisel)
+
+   GillyModdedHangarAccess     (personnel access for hangar)
+   GillyModdedHangarCargo      (main floorplan hangar facility)
+   GillyModdedHangarPort       (docking shaft for hangar)
+   GillyModdedSkyportAccess    (personnel access for Skyport)
+   GillyModdedSkyportRooms     (main floorplan Skyport facility)
+   GillyModdedSkyportLanding   (above-ground section of Skyport)
+
+
+Templates in the /Gilly folder spawn only if called from another template in /generic (or /templateparser or a biome folder)
+Keep a copy of ALL files in the Gilly folder, this is where they need to be when called by an active template
+
+   Put nothing in /templateparser, only for testing.
+
+   Use in worlds at own risk: if removing files from active directories, restart minecraft to clear from memory
+
+
+All files have "Gilly" to ensure a unique filename when merged with other content

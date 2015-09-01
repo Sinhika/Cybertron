@@ -2,7 +2,7 @@
 
 weight=1
 embed_into_distance=4
-unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava,ice,bedrock,netherrack,soul_sand,Natura:Cloud
 dimensions=1,1,1
 cut_in_buffer=0
 max_leveling=2

@@ -1,0 +1,26 @@
+# Gilly's Reactor Facility
+
+# calls templates that use Chisel and Tinkers Construct
+
+weight=1
+embed_into_distance=4
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava,ice,bedrock,netherrack,soul_sand,Natura:Cloud
+dimensions=2,1,1
+max_leveling=3
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+preserve_plants=0
+preventRotation=1
+
+rule1=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyModdedReactorCore ~-8 ~4 ~-12 0:@
+rule2=7,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyModdedReactorAccess ~0 ~3 ~0 0:@
+
+layer
+1
+endlayer
+
+layer
+2
+endlayer
+

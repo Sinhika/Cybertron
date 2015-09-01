@@ -1,0 +1,34 @@
+# Gilly's Ocean Marina
+
+weight=1
+embed_into_distance=4
+acceptable_target_blocks=water
+unacceptable_target_blocks=
+biomesToSpawnIn=ocean,deep ocean
+dimensions=3,1,1
+max_leveling=3
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+preserve_plants=0
+preventRotation=1
+
+# 24 12 -3 or -20 -9 5
+
+rule1=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyMarinaDock ~2 ~4 ~0 0:@
+rule2=0,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyMarinaAccess ~10 ~3 ~0 0:@
+rule3=7,100,CommandBlock:RUINSTRIGGER /testruin Gilly/GillyMarinaLanding ~3 ~2 ~-8 0:@
+
+layer
+1
+endlayer
+
+layer
+2
+endlayer
+
+layer
+3
+endlayer
+
+

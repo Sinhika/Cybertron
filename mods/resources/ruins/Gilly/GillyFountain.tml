@@ -2,7 +2,7 @@
 
 weight=1
 embed_into_distance=1
-unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava,ice,bedrock,netherrack,soul_sand,Natura:Cloud
 dimensions=7,13,13
 max_leveling=2
 leveling_buffer=0
@@ -10,7 +10,7 @@ preserve_water=0
 preserve_lava=0
 preserve_plants=0
 
-rule1=0,100,stonebrick
+rule1=0,100,stonebrick,stonebrick,stonebrick,stonebrick,stonebrick,stonebrick-2,stonebrick-2
 rule2=0,100,stone_slab
 rule3=0,100,stone_slab-5
 rule4=0,100,stone_brick_stairs

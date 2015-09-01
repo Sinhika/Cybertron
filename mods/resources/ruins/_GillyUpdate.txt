@@ -1,0 +1,27 @@
+To install:  
+   Place all the folders in mods/resources/ruins/
+
+Note there are duplicate files for a few structures, ones with "Modded" in title use blocks from other mods (Tinkers Construct and Chisel2)
+One or the other duplicate file can be removed from the "/generic" folder, depending on if you are playing with those specific mods in addition to Ruins
+Keep all files in the "/Gilly" folder, it is an archive that active templates seek when calling support files.
+
+-----  Aug 25 2015
+
+Modified only two files in this last update:
+
+GillyModdedFacilityReactor
+GillyHangarCargo
+
+-----  Aug 20 2015
+
+Replaced lines in templates that broke in newest versions of Ruins.
+
+Set up the file structure for templates, makes it easy to install considering the number of files has grown over time.
+
+Included new files for my Reactor Facility:
+   GillyModdedFacilityReactor
+   GillyModdedReactorAccess
+   GillyModdedReactorCore
+
+  This is the first time I've completed the version of a structure using mod blocks before the vanilla version.
+Since it's a reactor it really only makes sence to have the mod-block version, tell me what you think.

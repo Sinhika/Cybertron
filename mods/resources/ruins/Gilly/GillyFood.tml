@@ -2,10 +2,10 @@
 
 weight=1
 embed_into_distance=2
-unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava,ice,bedrock,netherrack,soul_sand,Natura:Cloud,wooden_slab
 dimensions=5,5,5
-max_leveling=2
-leveling_buffer=0
+max_leveling=3
+leveling_buffer=-1
 preserve_water=0
 preserve_lava=0
 preserve_plants=0
@@ -14,7 +14,7 @@ rule1=0,100,dirt
 rule2=0,100,stonebrick
 rule3=0,100,farmland
 rule4=0,100,flowing_water
-rule5=0,85,potatoes-2,carrots-2
+rule5=0,85,potatoes-5,carrots-5
 rule6=0,100,fence
 rule7=0,100,torch
 
