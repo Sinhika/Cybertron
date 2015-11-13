@@ -51,11 +51,8 @@
         "template": "uniform",
         "block": [
             { "name": "diamond_ore", "weight" : 35 },
-            { "name": "bluepower:amethyst_ore", "weight" : 15 },
-            { "name": "bluepower:ruby_ore", "weight" : 15 },
-            { "name": "bluepower:sapphire_ore", "weight" : 15 },
-            { "name": "emerald_ore", "weight" : 10 },
-            { "name": "appliedenergistics2:tile.OreQuartz", "weight" : 10}
+            { "name": "emerald_ore", "weight" : 20 },
+            { "name": "appliedenergistics2:tile.OreQuartz", "weight" : 45}
         ],
         "clusterSize": 3,
         "numClusters": 1,
@@ -154,41 +151,11 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [ -100 ]
     },
-    "DDteslatite": {
-        "template": "uniform",
-        "block": "bluepower:teslatite_ore",
-        "clusterSize": 4,
-        "numClusters": 1,
-       "minHeight": 230,
-        "maxHeight": 255,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [
-            "all"
-        ],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [ -100 ]
-    },
     "DDtin": {
         "template": "uniform",
         "block": {"name": "ThermalFoundation:Ore", "metadata": 1},
         "clusterSize": 8,
         "numClusters": 8,
-        "minHeight": 138,
-        "maxHeight": 255,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [
-            "all"
-        ],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [ -100 ]
-    },
-    "DDtungsten": {
-        "template": "uniform",
-        "block": "bluepower:tungsten_ore",
-        "clusterSize": 3,
-        "numClusters": 1,
         "minHeight": 138,
         "maxHeight": 255,
         "retrogen": "true",

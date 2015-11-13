@@ -107,12 +107,9 @@
     "alluvial_gems": {
         "template": "uniform",
         "block": [
-            { "name": "diamond_ore", "weight" : 35 },
-            { "name": "bluepower:amethyst_ore", "weight" : 15 },
-            { "name": "bluepower:ruby_ore", "weight" : 15 },
-            { "name": "bluepower:sapphire_ore", "weight" : 15 },
-            { "name": "emerald_ore", "weight" : 10 },
-            { "name": "appliedenergistics2:tile.OreQuartz", "weight" : 10}
+            { "name": "diamond_ore", "weight" : 45 },
+            { "name": "emerald_ore", "weight" : 20 },
+            { "name": "appliedenergistics2:tile.OreQuartz", "weight" : 35}
         ],
         "material": [
             {"name": "gravel"},
@@ -205,51 +202,6 @@
         "dimensions": [
             1, -1, 7, 17, 66
         ]
-    },
-    "amethyst" :{
-        "template": "uniform",
-        "block": { "name": "bluepower:amethyst_ore", "weight" : 15 },
-        "material": [
-            {"name": "stone", "metadata": 0},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 0},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 0},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 1},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 2},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 3},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 4},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 5},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 6},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7},
-            {"name": "chisel:limestone", "metadata": 0},
-            {"name": "UndergroundBiomes:igneousStone", "metadata": 0},
-            {"name": "UndergroundBiomes:igneousStone", "metadata": 1},
-            {"name": "UndergroundBiomes:igneousStone", "metadata": 2},
-            {"name": "UndergroundBiomes:igneousStone", "metadata": 3},
-            {"name": "UndergroundBiomes:igneousStone", "metadata": 4},
-            {"name": "UndergroundBiomes:igneousStone", "metadata": 5},
-            {"name": "UndergroundBiomes:igneousStone", "metadata": 6},
-            {"name": "UndergroundBiomes:igneousStone", "metadata": 7},
-            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 0},
-            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 1},
-            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 2},
-            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 3},
-            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 4},
-            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 5},
-            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 6},
-            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 7},
-            {"name": "chisel:marble", "metadata": 0}
-        ],
-        "clusterSize": 3,
-        "numClusters": 1,
-        "minHeight": 1,
-        "maxHeight": 96,
-        "retrogen": "true",
-        "biomeRestriction": "whitelist",
-        "biomes": [
-            {"type": "dictionary", "entry": "MOUNTAIN"}
-        ],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 17, 1, 7, 66 ]
     },
     "bitumen": {
         "template": "uniform",
@@ -731,50 +683,6 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [ -1, 1, 7, 17, 66 ]
      },
-    "teslatite": {
-        "template": "uniform",
-        "block": "bluepower:teslatite_ore",
-        "material": [
-            {"name": "stone", "metadata": 0},
-            {"name": "UndergroundBiomes:igneousStone", "metadata": 0},
-            {"name": "UndergroundBiomes:igneousStone", "metadata": 1},
-            {"name": "UndergroundBiomes:igneousStone", "metadata": 2},
-            {"name": "UndergroundBiomes:igneousStone", "metadata": 3},
-            {"name": "UndergroundBiomes:igneousStone", "metadata": 4},
-            {"name": "UndergroundBiomes:igneousStone", "metadata": 5},
-            {"name": "UndergroundBiomes:igneousStone", "metadata": 6},
-            {"name": "UndergroundBiomes:igneousStone", "metadata": 7},
-            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 0},
-            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 1},
-            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 2},
-            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 3},
-            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 4},
-            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 5},
-            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 6},
-            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 7},
-            {"name": "chisel:marble", "metadata": 0},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 0},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 1},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 2},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 3},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 4},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 5},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 6},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7},
-            {"name": "chisel:limestone", "metadata": 0}
-        ],
-        "clusterSize": 4,
-        "numClusters": 2,
-        "minHeight": 1,
-        "maxHeight": 20,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [
-            "all"
-        ],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 17, 7, 1, 66 ]
-     },
     "tin": {
         "template": "uniform",
         "block": {"name": "ThermalFoundation:Ore", "metadata": 1},
@@ -864,48 +772,6 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [ -1, 1, 7, 17, 66 ]
     },
-    "tungsten": {
-        "template": "uniform",
-        "block": "bluepower:tungsten_ore",
-        "material": [
-            {"name": "stone", "metadata": 0},
-            {"name": "UndergroundBiomes:igneousStone", "metadata": 0},
-            {"name": "UndergroundBiomes:igneousStone", "metadata": 1},
-            {"name": "UndergroundBiomes:igneousStone", "metadata": 2},
-            {"name": "UndergroundBiomes:igneousStone", "metadata": 3},
-            {"name": "UndergroundBiomes:igneousStone", "metadata": 4},
-            {"name": "UndergroundBiomes:igneousStone", "metadata": 5},
-            {"name": "UndergroundBiomes:igneousStone", "metadata": 6},
-            {"name": "UndergroundBiomes:igneousStone", "metadata": 7},
-            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 0},
-            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 1},
-            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 2},
-            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 3},
-            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 4},
-            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 5},
-            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 6},
-            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 7},
-            {"name": "chisel:marble", "metadata": 0},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 0},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 1},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 2},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 3},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 4},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 5},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 6},
-            {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7},
-            {"name": "chisel:limestone", "metadata": 0}
-        ],
-        "clusterSize": 3,
-        "numClusters": 1,
-        "minHeight": 1,
-        "maxHeight": 32,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [ "all"  ],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 17, 7, 1, 66 ]
-     },
     "yellorite" : {
         "template": "uniform",
         "block": "BigReactors:YelloriteOre",
