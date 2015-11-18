@@ -7,23 +7,36 @@
 <ore:seedRice>.add(<plantmegapack:foodRice>);
 <ore:seedRice>.add(<plantmegapack:foodWildRice>);
 
-# remove GC rice ball recipe based on cropRice and replace it with
-# a seedRice recipe.
-
-recipes.removeShaped(<Growthcraft|Rice:grc.riceBall>);
-recipes.addShaped(<Growthcraft|Rice:grc.riceBall>, [
-    [<ore:seedRice>, <ore:seedRice>, <ore:seedRice>],
-    [<ore:seedRice>, <ore:seedRice>, <ore:seedRice>]
-    ]);
-
-# remove PMP cooked rice recipe and replace it with ore-dict seedRice
-# recipe for cooked rice.
-recipes.removeShapeless(<plantmegapack:foodCookedRice>);
-recipes.addShapeless(<plantmegapack:foodCookedRice>, 
-    [ <ore:seedRice>, <ore:seedRice>, <ore:seedRice> ]);
-
 # STRAWBERRY
-<ore:cropStrawberry>.add(<plantmegapack:berrybushStraw>);
+<ore:cropStrawberry>.add(<plantmegapack:berriesStraw>);
+
+<ore:cropBlackberry>.add(<plantmegapack:berriesBlack>);
+<ore:cropBlackberry>.add(<ExtraTrees:food:43>);
+
+<ore:cropBlueberry>.add(<plantmegapack:berriesBlue>);
+<ore:cropBlueberry>.add(<ExtraTrees:food:41>);
+<ore:cropBlueberry>.add(<ExtraTrees:food:42>);
+
+<ore:cropElderberry>.add(<plantmegapack:berriesElder>);
+
+<ore:cropGooseberry>.add(<plantmegapack:berriesGoose>);
+<ore:cropGooseberry>.add(<ExtraTrees:food:48>);
+
+# ALL BERRIES
+<ore:listAllberry>.addAll(<ore:cropStrawberry>);
+<ore:listAllberry>.addAll(<ore:cropElderberry>);
+<ore:listAllberry>.addAll(<ore:cropBlackberry>);
+<ore:listAllberry>.addAll(<ore:cropBlueberry>);
+<ore:listAllberry>.addAll(<ore:cropGooseberry>);
+<ore:listAllberry>.add(<plantmegapack:berriesBeauty>);
+<ore:listAllberry>.add(<plantmegapack:berriesHarlequinMistletoe>);
+<ore:listAllberry>.add(<plantmegapack:berriesHuckle>);
+<ore:listAllberry>.add(<plantmegapack:berriesOrange>);
+<ore:listAllberry>.add(<plantmegapack:berriesSnow>);
+<ore:listAllberry>.add(<erebus:food:14>);
+<ore:listAllberry>.add(<ExtraTrees:food:44>);
+<ore:listAllberry>.add(<ExtraTrees:food:46>);
+<ore:listAllberry>.add(<ExtraTrees:food:49>);
 
 # ALL SEEDS
 <ore:listAllseed>.add(<ExtrabiomesXL:extrabiomes.seed>);
@@ -40,5 +53,12 @@ recipes.addShapeless(<plantmegapack:foodCookedRice>,
 <ore:listAllgrain>.add(<plantmegapack:foodCorn>);
 
 # ALL ROOTS
-<ore:listAllrootveggie>.add(<minecraft:potato>);
-<ore:listAllrootveggie>.add(<minecraft:carrot>);
+<ore:listAllrootveggie>.addAll(<ore:cropPotato>);
+<ore:listAllrootveggie>.addAll(<ore:cropCarrot>);
+
+# ALL VEGGIES
+<ore:listAllveggie>.addAll(<ore:listAllrootveggie>);
+
+# ALL FRUIT
+<ore:listAllfruit>.addAll(<ore:listAllberry>);
+

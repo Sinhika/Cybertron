@@ -108,6 +108,7 @@ key_key.chest2.desc:50
 key_key.ready_guns.desc:25
 key_key.fire_port.desc:26
 key_key.fire_star.desc:27
+key_Show force-loaded chunks:67
 key_Glider Toggle:34
 key_Sound Locator:38
 key_Night Vision:25
