@@ -44,10 +44,11 @@
             {"type": "dictionary", "entry": ["WET", "HOT"] }
         ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 1, 7, 17, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 1, 7, 17, 66 ]
     },
     "surface_aluminum": {
         "template": "surface",
+        "followTerrain": "true",
         "block": [
             {"name": "TConstruct:TConstruct:GravelOre", "metadata": 4, 
                 "weight":80 },
@@ -102,7 +103,7 @@
             {"type": "dictionary", "entry": ["WET", "HOT"] }
         ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 1, 7, 17, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 1, 7, 17, 66 ]
     },
     "alluvial_gems": {
         "template": "uniform",
@@ -153,7 +154,7 @@
             {"type": "dictionary", "entry": "RIVER"}
         ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 17, 7, 1, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 17, 7, 1, 66 ]
     },
     "alluvial_gravel_bed": {
         "template": "uniform",
@@ -200,7 +201,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            1, -1, 7, 17, 66
+            -112,-34,-23,-17, 1, -1, 7, 17, 66
         ]
     },
     "bitumen": {
@@ -228,7 +229,7 @@
             "all"
         ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 17, 7, 1, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 17, 7, 1, 66 ]
      },
     "certus quartz": {
         "template": "uniform",
@@ -274,7 +275,7 @@
         "biomeRestriction": "none",
         "biomes": [ "all" ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 17, 7, 1, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 17, 7, 1, 66 ]
     },
     "copper": {
         "template": "uniform",
@@ -316,7 +317,7 @@
         "biomeRestriction": "none",
         "biomes": [ "all" ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 1, 7, 17, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 1, 7, 17, 66 ]
     },
     "copperHigh": {
         "template": "uniform",
@@ -361,7 +362,7 @@
             {"type": "dictionary", "entry": "MOUNTAIN"}
         ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 1, 7, 17, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 1, 7, 17, 66 ]
     },
     "lead_silver": {
         "template": "uniform",
@@ -406,7 +407,7 @@
         "biomeRestriction": "none",
         "biomes": [ "all" ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 1, 7, 17, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 1, 7, 17, 66 ]
     },
     "magnesium": {
         "template": "uniform",
@@ -450,7 +451,7 @@
             "all"
         ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 1, 7, 17, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 1, 7, 17, 66 ]
      },
     "manganese": {
         "template": "uniform",
@@ -493,7 +494,7 @@
         "biomes": [
         ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 1, 7, 17, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 1, 7, 17, 66 ]
      },
     "nickel_laterites": {
         "template": "uniform",
@@ -541,7 +542,7 @@
             {"type": "dictionary", "entry": ["HOT", "WET"] }
         ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 1, 7, 17, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 1, 7, 17, 66 ]
     },
     "platinum": {
         "template": "uniform",
@@ -590,7 +591,7 @@
             "all"
         ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 1, 7, 17, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 1, 7, 17, 66 ]
     },
     "desert_silver_lead": {
         "template": "uniform",
@@ -637,7 +638,7 @@
             {"type": "dictionary", "entry": ["SANDY"] }
         ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 1, 7, 17, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 1, 7, 17, 66 ]
     },
     "sulfur": {
         "template": "uniform",
@@ -681,7 +682,7 @@
             "all"
         ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 1, 7, 17, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 1, 7, 17, 66 ]
      },
     "tin": {
         "template": "uniform",
@@ -725,7 +726,7 @@
             "all"
         ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 1, 7, 17, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 1, 7, 17, 66 ]
     },
     "alluvial_tin": {
         "template": "uniform",
@@ -770,7 +771,7 @@
         "biomeRestriction": "none",
         "biomes": [ "all" ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 1, 7, 17, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 1, 7, 17, 66 ]
     },
     "yellorite" : {
         "template": "uniform",
@@ -815,7 +816,7 @@
             {"type": "dictionary", "entry": ["SANDY"] }
         ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 17, 7, 1, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 17, 7, 1, 66 ]
     },
     "zinc": {
         "template": "uniform",
@@ -862,6 +863,6 @@
             "all"
         ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 1, 7, 17, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 1, 7, 17, 66 ]
      }
 }

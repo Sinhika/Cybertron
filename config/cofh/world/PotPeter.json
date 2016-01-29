@@ -40,11 +40,14 @@
         "biomeRestriction": "none",
         "biomes": [ "all" ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 17, 7, 1, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 17, 7, 1, 66 ]
     },
     "surface_potash": {
         "template": "surface",
-        "block": "clay",
+        "block": [
+          {"name": "Metallurgy:utility.ore", "metadata": 5, "weight": 30},  
+          {"name": "clay", "weight": 70 }
+        ],
         "generator": "plate",
         "material": [
             {"name": "stone", "metadata": 0},
@@ -90,7 +93,7 @@
             {"type": "dictionary", "entry": ["SANDY"] }
         ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 1, 7, 17, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 1, 7, 17, 66 ]
     },
     "saltpeter": {
         "template": "cave",
@@ -135,6 +138,6 @@
             "all"
         ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 1, 7, 17, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 1, 7, 17, 66 ]
      }
 }

@@ -98,7 +98,7 @@ key_doggytalents.key.stay:208
 key_doggytalents.key.ok:203
 key_doggytalents.key.heel:205
 key_MoCreatures Dive:33
-key_MoCreatures GUI:64
+key_MoCreatures GUI:0
 key_igwmod.keys.wiki:23
 key_Pneumatic Helmet Options:33
 key_Pneumatic Helmet Hack:35
@@ -125,6 +125,7 @@ key_key.tarmor:24
 key_key.tgoggles:34
 key_key.tbelt:48
 key_key.tzoom:44
+key_key.llor.hotkey:62
 key_Glide:34
 key_Glider Lift:33
 key_Beetle Ram Attack:19

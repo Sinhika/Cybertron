@@ -46,6 +46,6 @@
             {"type": "dictionary", "entry": ["WET", "RIVER"]}
         ],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 1, 7, 17, 66 ]
+        "dimensions": [ -112,-34,-23,-1, 1, 7, 17, 66 ]
     }
 }

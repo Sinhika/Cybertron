@@ -39,7 +39,7 @@
         "biomeRestriction": "none",
         "biomes": ["all"],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 1, 7, 17, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 1, 7, 17, 66 ]
     },
    "coal": {
         "template": "uniform",
@@ -81,7 +81,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 17, 7, 1, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 17, 7, 1, 66 ]
     },
    "high_coal": {
         "template": "uniform",
@@ -123,7 +123,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 17, 7, 1, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 17, 7, 1, 66 ]
     },
      "iron": {
         "template": "uniform",
@@ -164,7 +164,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 17, 7, 1, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 17, 7, 1, 66 ]
     },
     "gold": {
         "template": "uniform",
@@ -206,7 +206,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 17, 7, 1, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 17, 7, 1, 66 ]
     },
     "redstone": {
         "template": "uniform",
@@ -248,7 +248,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 17, 7, 1, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 17, 7, 1, 66 ]
     },
     "diamond": {
         "template": "uniform",
@@ -292,7 +292,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 17, 7, 1, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 17, 7, 1, 66 ]
     },
     "lapis": {
         "template": "normal",
@@ -334,7 +334,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [ -1, 17, 7, 1, 66 ]
+        "dimensions": [ -112,-34,-23,-17,-1, 17, 7, 1, 66 ]
     },
     "quartz": {
         "template": "uniform",
