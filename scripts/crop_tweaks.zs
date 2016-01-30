@@ -19,19 +19,15 @@
 
 # BLACKBERRY
 <ore:cropBlackberry>.add(<plantmegapack:berriesBlack>);
-<ore:cropBlackberry>.add(<ExtraTrees:food:43>);
 
 # BLUEBERRY/CURRANTS
 <ore:cropBlueberry>.add(<plantmegapack:berriesBlue>);
-<ore:cropBlueberry>.add(<ExtraTrees:food:41>);
-<ore:cropBlueberry>.add(<ExtraTrees:food:42>);
 
 # ELDERBERRY
 <ore:cropElderberry>.add(<plantmegapack:berriesElder>);
 
 # GOOSEBERRY
 <ore:cropGooseberry>.add(<plantmegapack:berriesGoose>);
-<ore:cropGooseberry>.add(<ExtraTrees:food:48>);
 
 # ALL BERRIES
 <ore:listAllberry>.addAll(<ore:cropStrawberry>);
@@ -46,9 +42,6 @@
 <ore:listAllberry>.add(<plantmegapack:berriesOrange>);
 <ore:listAllberry>.add(<plantmegapack:berriesSnow>);
 <ore:listAllberry>.add(<erebus:food:14>);
-<ore:listAllberry>.add(<ExtraTrees:food:44>);
-<ore:listAllberry>.add(<ExtraTrees:food:46>);
-<ore:listAllberry>.add(<ExtraTrees:food:49>);
 
 # ALL SEEDS
 <ore:listAllseed>.add(<ExtrabiomesXL:extrabiomes.seed>);
@@ -70,15 +63,6 @@
 
 # ALL NUTS
 <ore:listAllnuts>.add(<plantmegapack:foodPeanuts>);
-<ore:listAllnuts>.add(<ExtraTrees:food:9>);
-<ore:listAllnuts>.add(<ExtraTrees:food:24>);
-<ore:listAllnuts>.add(<ExtraTrees:food:25>);
-<ore:listAllnuts>.add(<ExtraTrees:food:26>);
-<ore:listAllnuts>.add(<ExtraTrees:food:27>);
-<ore:listAllnuts>.add(<ExtraTrees:food:31>);
-<ore:listAllnuts>.add(<ExtraTrees:food:33>);
-<ore:listAllnuts>.add(<ExtraTrees:food:51>);
-<ore:listAllnuts>.add(<ExtraTrees:food:59>);
 
 # ALL ROOTS
 <ore:listAllrootveggie>.addAll(<ore:cropPotato>);
@@ -134,8 +118,6 @@
 <ore:listAllotherveggie>.add(<plantmegapack:foodOnion>);
 <ore:listAllotherveggie>.add(<plantmegapack:foodLeek>);
 <ore:listAllotherveggie>.add(<plantmegapack:foodTomato>);
-<ore:listAllotherveggie>.add(<ExtraTrees:food:35>);   # olive
-<ore:listAllotherveggie>.add(<ExtraTrees:food:52>);   # avocado
 
 # ALL VEGGIES
 <ore:listAllveggie>.add(<plantmegapack:foodGreenBeans>);
