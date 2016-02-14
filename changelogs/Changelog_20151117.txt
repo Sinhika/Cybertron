@@ -1,0 +1,58 @@
+UPDATE CHANGELOG for 2015 Nov 17
+
+
+NOT DONE
+
+New Forestry breaks Binnie's Mods (Extra Bees, Extra Trees, etc)
+
+Forestry 4.1.1.46 (major version change)
+BD lib 1.9.3.107 (supports Forestery 4.0.8+)
+Gendustry 1.6.2.127  (supports Forestery 4.0.8+)
+NEI Integration 1.0.13
+
+DOING
+
+
+DONE
+
+- Enabled vanilla tools in TiC
+
+Forge 10.13.4.1558-1.7.10
+AgriCraft 1.4.5
+Archimedes' Ships Plus 1.7.10-1.8
+MovingWorld 1.7.10-1.8
+BiblioCraft 1.11.4
+BuildCraft 7.1.13
+BuildCraft Compat 7.1.2
+Additional BuildCraft Objects 4.0.2
+Carpenter's Blocks 3.3.8 devR4
+Chisel 2.9.3.9
+More Chisels 1.7.10-1.0-28
+Dimensional Anchors 59.0.3  (replaces Chicken Chunks)
+Extra Utilities 1.2.12
+Forestry 3.6.12.3
+Garden Stuff 1.7.10-1.6.8
+Gendustry 1.6.1.126
+GrowthCraft 1.7.10-2.3.1
+Improving Minecraft 1.7.4
+Just Another Spawner 0.17.6
+LightLevelOverlayReloaded 1.7.10-1.0.3 (add)
+MalisisCore 1.7.10-0.13.1
+Malisis' Doors 1.7.10-1.12.0
+Metallurgy 4 4.0.8.97 (server fixes, or crashes TE with new RailCraft)
+MineTweaker3 1.7.10-3.0.10
+ModTweaker2 0.9.4
+NEI Adddons 1.12.14.40
+NotEnoughKeys 1.7.10-3.0.0b43
+Plant Mega Pack 4.29
+PneumaticCraft 1.11.19-141
+Railcraft 9.8.0.0
+RFTools 4.0.1 (major)
+McJtylib 1.7.0 (required for RFTools update)
+Storage Drawers 1.7.10-1.6.2
+Tinker's Construct 1.7.10-1.8.8
+Mantle 1.7.10-0.3.2b
+WAILA Harvestability 1.7.10-1.1.5
+
+
+

@@ -102,6 +102,7 @@ key_MoCreatures GUI:0
 key_igwmod.keys.wiki:23
 key_Pneumatic Helmet Options:33
 key_Pneumatic Helmet Hack:35
+key_Pneumatic Helmet Debugging Drone:21
 key_key.follow.desc:29
 key_key.chest1.desc:49
 key_key.chest2.desc:50
@@ -129,12 +130,20 @@ key_key.llor.hotkey:62
 key_Glide:34
 key_Glider Lift:33
 key_Beetle Ram Attack:19
+key_Stag Beetle Dig:56
 key_key.cofh.empower:47
 key_key.cofh.multimode:46
 key_railcraft.keybind.loco.faster:52
 key_railcraft.keybind.loco.slower:51
 key_railcraft.keybind.loco.mode:50
 key_railcraft.keybind.loco.whistle:49
+key_key.journeymap.map_toggle:36
+key_key.journeymap.zoom_in:13
+key_key.journeymap.zoom_out:12
+key_key.journeymap.minimap_type:26
+key_key.journeymap.minimap_type:27
+key_key.journeymap.minimap_preset:43
+key_key.journeymap.create_waypoint:48
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0

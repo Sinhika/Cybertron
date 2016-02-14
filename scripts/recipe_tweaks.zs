@@ -214,4 +214,7 @@ recipes.addShapeless(<fossil:rawChickenSoup>,
 recipes.addShapeless(<erebus:food:6>, 
     [ <minecraft:bowl>.reuse(), <ore:bamboo>, <ore:cropBambooshoot> ]);
 
+# - tomatoes should yield tomato seeds.
+recipes.addShapeless(<plantmegapack:seedTomato>, [<plantmegapack:foodTomato>]);
+
 # TODO - ore-dict fruit drinks

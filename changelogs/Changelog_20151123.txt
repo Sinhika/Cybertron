@@ -1,0 +1,15 @@
+UPDATE CHANGELOG for 2015 Nov 23
+
+DOING
+
+scripts are a work-in-progress; expect more changes.
+
+DONE
+
+config/cofh/world - updated all JSON files to address overlooked dimensions
+such as Anu, Treasure, and Wyvern.
+
+scripts/ 
+    - added corn flour wrap recipes & mutton sandwich recipe, 
+    - ore-dicted meats and fish for used with wrap recipes, 
+    - ore-dicted and organized vegetables for use with PMP recipes.

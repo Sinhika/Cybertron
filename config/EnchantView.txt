@@ -1,5 +1,5 @@
 #EnchantView basic properties
-#Sat Jan 30 14:26:41 CST 2016
+#Wed Feb 03 17:58:20 CST 2016
 ALLOW_ON_LAN=true
 ENABLE=Always
 # ENABLE

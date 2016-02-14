@@ -1,0 +1,13 @@
+UPDATE CHANGELOG for 2015 DEC 05
+
+DONE:
+
+- PMP: can make bamboo torch from cattails
+- PMP/TE: added bamboo charcoal recipes for PMP bamboo poles to redstone furnace.
+- Added potash to "surface potash" ore vein definition.
+- fixed Minetweaker recipes that use wooden bowls to return the bowls.
+- IMC: disabled charged creepers randomly spawning
+- JAS: reduced creeper spawn weight.
+- JAS: adjusted spider spawn weights based on biome (none in ice, fewer in cold)
+- JAS: adjusted slime spawn weights based on biome (fewer in dry slime chunks)
+- JAS: slightly reduced skeleton vs zombie & spider spawn weights.

@@ -1,0 +1,25 @@
+UPDATE CHANGELOG for 2015 Nov 28
+
+NOT DONE
+
+- ore-dict grape tart - DOES NOT EXIST
+- ore-dict kiwi pie - DOES NOT EXIST
+
+DOING
+
+
+DONE
+
+- changes from 11/23, plus:
+- PMP: ore-dicted berry desserts and muffins that overlap with other mods berries.
+- PMP: added rice wrap recipes that use ore-dicted meats & veggies.
+- PMP: ore-dicted versions of all the jelly recipes.
+- added vanilla apples & melons to listAllfruit.
+- PMP: ore-dicted versions of all meat sandwiches.
+- PMP: organize veggies into "leafy greens" and "stirfry veggies".
+- PMP: ore-dicted stirfry recipe.
+- added dinosaur meats to raw & cooked lists.
+- ore-dicted Erebus Bamboo soup recipe.
+- ore-dicted bamboo pole (ore:bamboo) and bamboo planks (ore:plankBamboo)
+- ore-dict Erebus bamboo item recipes.
+

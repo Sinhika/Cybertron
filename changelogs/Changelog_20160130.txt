@@ -1,0 +1,58 @@
+
+UPDATE CHANGELOG for 2016 JAN 30
+
+DONE:
+
+- removed Binnie's Mods
+- removed ExtraTrees items from croptweaks.zs script.
+
+- massive update of most mods:
+- updated to Agricraft 1.4.6-hotfix
+- updated to AOBD 2.9.0
+- updated to AppleCore 1.7.10-1.3.0
+- updated to Autopackager 1.5.7
+- updated to bdlib 1.9.4.109
+- updated to BuildCraft 7.1.14
+- updated to BuildCraft Compat 7.1.3
+- updated to Carpenter's Blocks 3.3.8_dev_r8
+- updated to Chisel 2.9.4.10
+- updated to COFHCore 3.1.0
+- updated to COFHTweaks 1.1.0-82
+- updated to EnderStorage 1.4.7.38
+- updated to Erebus 0.4.3
+- updated to ExtraCells2 2.3.8 
+- updated to ExtraBiomesXL 3.16.4
+- updated to Forestry 4.2.6.54
+- updated to GardenStuff 1.7.10-1.7.0
+- updated to GenDustry 1.6.3.132
+- updated to GrowthCraft(Complete) 1.7.10-2.4.0
+- updated to Immibis Core 59.1.4
+- updated to In-Game wiki Mod 1.1.12-34
+- updated to MalisisCore 1.7.10-0.14.1
+- updated to Malisis' Doors 1.7.10-1.13.0
+- updated to McjtyLib 1.8.1
+- updated to MFR 2.8.1
+- updated to Mod Tweaker2 0.9.5
+- updated to NEI Integration 1.1.1
+- updated to NotEnoughItems 1.7.10-1.0.5.120
+- updated to NotEnoughKeys 1.7.10-3.0.0b45
+- updated to OpenBlocks 1.5
+- updated to OpenMods 0.9
+- updated to Plant Mega Pack 4.31
+- updated to PneumaticCraft 1.12.5-148
+- updated to PressurePipes 1.2.5.125
+- updated to RFTools 4.21
+- updated to Ruins Spawning System
+- updated to Small Boats 1.7.10-10.13.0-16.0
+- updated to Storage Draws 1.7.10-1.7.7
+- updated to Thermal Expansion 4.1.1
+- updated to Thermal Foundation 1.2.2
+- updated to Tinker's Construct 1.8.8
+- updated to Waila Harvestability 1.1.6
+
+
+TODO:
+
+- add PMP and EBXL flowers to flowers useable by Forestry Bees.
+- add mod stuff as appropriate to Forestry backpack lists.
+
