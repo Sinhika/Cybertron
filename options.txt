@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:1
 clouds:true
-resourcePacks:[]
+resourcePacks:["Faithful.zip"]
 lastServer:
 lang:en_US
 chatVisibility:0
@@ -140,7 +140,7 @@ key_railcraft.keybind.loco.whistle:49
 key_key.journeymap.map_toggle:36
 key_key.journeymap.zoom_in:13
 key_key.journeymap.zoom_out:12
-key_key.journeymap.minimap_type:26
+key_key.journeymap.minimap_type:27
 key_key.journeymap.minimap_type:27
 key_key.journeymap.minimap_preset:43
 key_key.journeymap.create_waypoint:48

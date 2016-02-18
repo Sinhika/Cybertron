@@ -102,3 +102,10 @@ recipes.addShaped( <erebus:bambooTorch>,
      [<ore:bamboo>, null, null],
      [<ore:bamboo>, null, null]
     ]);
+
+
+# alternate black dye recipe, for the squidless
+
+recipes.addShapeless( <ExtrabiomesXL:extrabiomes.dye:0>,
+    [<ore:dyeCyan>,<ore:dyeMagenta>,<ore:dyeYellow>]);
+
