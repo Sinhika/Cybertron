@@ -100,9 +100,9 @@ key_doggytalents.key.heel:205
 key_MoCreatures Dive:33
 key_MoCreatures GUI:0
 key_igwmod.keys.wiki:23
-key_Pneumatic Helmet Options:33
-key_Pneumatic Helmet Hack:35
-key_Pneumatic Helmet Debugging Drone:21
+key_Pneumatic Helmet Options:0
+key_Pneumatic Helmet Hack:0
+key_Pneumatic Helmet Debugging Drone:0
 key_key.follow.desc:29
 key_key.chest1.desc:49
 key_key.chest2.desc:50
@@ -110,18 +110,20 @@ key_key.ready_guns.desc:25
 key_key.fire_port.desc:26
 key_key.fire_star.desc:27
 key_Show force-loaded chunks:67
+key_waila.keybind.wailaconfig:82
+key_waila.keybind.wailadisplay:79
+key_waila.keybind.liquid:80
+key_waila.keybind.recipe:81
+key_waila.keybind.usage:75
 key_Glider Toggle:34
 key_Sound Locator:38
 key_Night Vision:25
 key_Goggles of Revealing:19
 key_Step Assist:0
 key_Speed:0
+key_Jump:0
 key_Yeta Wrench Mode:21
-key_waila.keybind.wailaconfig:82
-key_waila.keybind.wailadisplay:79
-key_waila.keybind.liquid:80
-key_waila.keybind.recipe:81
-key_waila.keybind.usage:75
+key_Toggle Electromagnet:0
 key_key.tarmor:24
 key_key.tgoggles:34
 key_key.tbelt:48
@@ -138,12 +140,12 @@ key_railcraft.keybind.loco.slower:51
 key_railcraft.keybind.loco.mode:50
 key_railcraft.keybind.loco.whistle:49
 key_key.journeymap.map_toggle:36
-key_key.journeymap.zoom_in:13
+key_key.journeymap.zoom_in:78
 key_key.journeymap.zoom_out:12
-key_key.journeymap.minimap_type:27
-key_key.journeymap.minimap_type:27
-key_key.journeymap.minimap_preset:43
-key_key.journeymap.create_waypoint:48
+key_key.journeymap.minimap_type:0
+key_key.journeymap.minimap_type:0
+key_key.journeymap.minimap_preset:0
+key_key.journeymap.create_waypoint:0
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0

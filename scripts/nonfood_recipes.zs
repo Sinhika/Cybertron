@@ -109,3 +109,6 @@ recipes.addShaped( <erebus:bambooTorch>,
 recipes.addShapeless( <ExtrabiomesXL:extrabiomes.dye:0>,
     [<ore:dyeCyan>,<ore:dyeMagenta>,<ore:dyeYellow>]);
 
+# MFR fertilizer --> Forestry fertilizer
+recipes.addShapeless( <Forestry:fertilizerCompound>, 
+                     [<MineFactoryReloaded:fertilizer>]);
