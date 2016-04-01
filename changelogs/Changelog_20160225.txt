@@ -1,0 +1,35 @@
+UPDATE NOTES FOR Feb 25, 2016
+
+DONE:
+
+- added MFR fertilizer -> Forestry fertilizer to non-food recipes script.
+- added most PMP & other flowers to Forestry bee config as bee support.
+- Ditto for PMP cacti, jungle plants, etc.
+- added all raw & cooked meats to Forestry Hunter's Backpack.
+
+- updated to Additional Buildcraft Objects 4.0.6
+- updated to AOBD 2.9.1
+- updated to Archimedes Ships Plus 1.8.1 & MovingWorld 1.8.1
+- updated to AutoPackager 1.5.9
+- updated to CoFH Core 3.1.2
+- updated to COFHTweaks 1.1.2-89
+- added EnderCore 1.7.10-0.2.0.31_beta
+- updated to Ender IO 1.7.10-2.3.0.422_beta
+- updated to The Erebus 0.4.5
+- updated to Extra Cells2 2.3.9
+- updated to Forestry 4.2.9.57
+- updated to JustAnotherSpawner 0.17.7
+- updated to LLOverlayReloaded 1.0.5
+- updated to MalisisCore 1.7.10-0.14.3
+- updated to Malisis'Doors 1.7.10-1.13.11 (note: internal version # still
+1.13.0)
+- updated to NEIIntegration 1.1.2
+- updated to OpenModsLib 0.9.1
+- updated to OpenBlocks 1.5.1
+- updated to PenumaticCraft 1.12.6-149
+- updated to Pressuer Pipes 1.3.0.130
+- updated to RFTools 4.22
+- updated to Storage Drawers 1.9.2
+- updated to Thermal Expansion 4.1.2
+- updated to Thermal Foundation 1.2.3
+

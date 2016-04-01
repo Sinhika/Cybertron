@@ -32,3 +32,8 @@
 # Shouldn't sugar charcoal be useable as charcoal?
 <ore:charcoal>.add(<MineFactoryReloaded:sugarcharcoal>);
 
+# TiC glass panes should be glass.
+<ore:paneGlass>.add(<TConstruct:GlassPane>);
+<ore:paneGlass>.add(<TConstruct:GlassPaneClearStained>);
+<ore:paneGlassColorless>.add(<TConstruct:GlassPane>);
+<ore:blockGlassColorless>.add(<TConstruct:GlassBlock>);
