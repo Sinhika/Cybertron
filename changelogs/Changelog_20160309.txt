@@ -1,20 +1,22 @@
 UPDATE NOTES FOR March 2016 
 
 NOT DONE:
-- did not update Malisis' Doors to 1.7.10-1.13.2. New version crashes on launch.
+- did not add Binnie Patcher 1.6 (allows Binnie's Mods to work with Forestry 4+)
+- did not restore Binnie's Mods 2.0-pre14 (Binnie's plus Patcher fails on
+world load and locks up Minecraft...)
 
 DONE:
 - removed Funky Locomotion
 - updated Additional Buildcraft Objects to 4.0.8
 - updated AgriCraft to 1.5.0
-- ADDED Binnie Patcher 1.6 (allows Binnie's Mods to work with Forestry 4+)
-- RESTORED Binnie's Mods  2.0-pre14
 - updated Buildcraft to 7.1.16
 - updated Buildcraft Compat to 7.1.4
+- updated COFH Tweaks to 1.1.3B2-91
 - updated EnderCore to 1.7.10-0.2.0.32_beta
 - updated Ender IO to 1.7.10-2.3.0.424_beta
 - updated Forestry to 4.2.10.58
 - updated GrowthCraft to 2.5.0
+- updated Malisis' Doors to 1.7.10-1.13.2
 - updated NEI Addons to 1.12.14.40
 - updated Plant Mega Pack to 4.33
 - updated PneumaticCraft to 1.12.7-150

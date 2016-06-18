@@ -1,0 +1,28 @@
+UPDATE NOTES FOR May 2016
+
+NOT DONE:
+
+DONE:
+
+- updated Additional Buildcraft Objects BC7.1release4.0.9
+- updated AppleCore 1.7.10-1.3.1
+- updated BinniePatcher 1.8.2
+- updated Bibliocraft 1.11.5
+- updated Carpenter's Blocks 3.3.8
+- updated EnderCore 1.7.0-0.2.0.35_beta
+- updated The Erebus 0.4.6
+- updated ExtraCells 2.3.10
+- updated ExtraTiC 1.4.6
+- updated JABBA 1.2.2_1.7.10
+- updated JourneyMap 1.7.10-5.1.4p1
+- updated Mo'Vilages 1.7.10-1.4.1
+- updated Railcraft 9.12.2.0
+- updated Storage Drawers 1.7.10-1.9.8
+- updated Thermal Dynamics 1.2.0
+- updated Thermal Foundatino 1.2.4
+- updated Underground Biomes Constructs 1.7.10-0.8_beta48
+
+TODO:
+
+- sort out scripting issues, if any.
+

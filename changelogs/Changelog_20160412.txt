@@ -1,0 +1,19 @@
+UPDATE NOTES FOR April 2016 
+
+NOT DONE:
+
+DONE:
+- added Binnie Patcher 1.6 (allows Binnie's Mods to work with Forestry 4+). 
+- restored Binnie's Mods 2.0-pre14 (REQUIRED a rename to load in proper order)
+- added Solar Flux 1.7.10-0.8b
+- added Steve's Workshop 0.5.1
+- updated BuildCraft Compat 7.1.5
+- updated EnderCore 2.0.33
+- updated Forestry 4.2.12.60
+- updated Growthcraft CE 2.5.2
+- updated IvToolkit 1.2.1
+- updated Storage Drawers 1.9.7
+
+TODO: 
+- sort out scripting issues.
+

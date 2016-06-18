@@ -92,7 +92,7 @@ key_key.archimedes.align:13
 key_key.archimedes.decompile:43
 key_key.archimedes.shipinv:37
 key_key.personalBackpack:48
-key_Cosmetic Inventory:46
+key_Cosmetic Inventory:23
 key_doggytalents.key.come:200
 key_doggytalents.key.stay:208
 key_doggytalents.key.ok:203
@@ -127,14 +127,14 @@ key_Toggle Electromagnet:0
 key_key.tarmor:24
 key_key.tgoggles:34
 key_key.tbelt:48
-key_key.tzoom:44
+key_key.tzoom:59
 key_key.llor.hotkey:62
-key_Glide:34
-key_Glider Lift:33
-key_Beetle Ram Attack:19
-key_Stag Beetle Dig:56
+key_key.erebus.glide:34
+key_key.erebus.poweredGlide:33
+key_key.erebus.beetleRam:19
+key_key.erebus.beetleMine:56
 key_key.cofh.empower:47
-key_key.cofh.multimode:46
+key_key.cofh.multimode:0
 key_railcraft.keybind.loco.faster:52
 key_railcraft.keybind.loco.slower:51
 key_railcraft.keybind.loco.mode:50
