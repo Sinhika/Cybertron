@@ -1,0 +1,26 @@
+UPDATE NOTES FOR Mid-July 2016
+
+NOT DONE:
+
+
+DONE:
+
+- Change item despawn time back to 5 minutes (BC had it set to 1 minute)
+- hide NEI BC facade recipes, they clutter it up.
+- enable slimeball BC pipe sealant recipe.
+- Add recipe to convert Metallurgy fertilizer to Forestry fertilizer.
+- Change recipe for windmill to iron gear plus electrical steel.
+- Candilla wax oredicted with Forestry beeswax.
+- add recipe for 9x Forestry beeswax --> 1x GC beeswax and vice versa.
+- added recipes for pipe sealant from all slimeballs, glue & raw rubber.
+
+- updated Buildcraft 7.1.17
+- updated Ender IO 2.3.0.427beta
+- updated The Erebus 0.4.7
+- removed Steve's Workshop, replaced it with Ewy's Workshop
+- updated Forestry 4.2.14.62
+- added Magic Bees 2.4.3
+- updated ModTweaker2 0.9.6
+- updated Mo'Villages 1.4.2
+- updated Storage Drawers 1.10.0
+

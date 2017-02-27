@@ -1,0 +1,34 @@
+UPDATE NOTES FOR August 23, 2016
+
+NOT DONE:
+
+
+- won't add NoMoreRecipeConflict 0.3 - does not appear to work with TiC
+crafting station.
+
+DONE:
+
+1)
+- updated Metallurgy 4 4.0.9
+- updated Metallurgy Core 4.0.5
+
+2)
+- updated Growthcraft 1.7.10-2.6.3
+- updated Storage Drawers 1.7.10-1.10.1
+- updated Fossils and Archeology Revival 7.3.2
+- updated Forestry 4.2.15.63
+- added Nomadic Tents 1.11
+- added Cacti 1.0.0 (Client-only, so you can take it or leave it)
+
+- fixed COFH ore-gen scripts that were still throwing errors. Jungles should
+have more surface aluminum now.
+
+3)
+- updated CoFH Core 3.1.3-328
+- updated COFH Tweaks 1.1.3B3-94
+- updated Thermal Expansion 4.1.4
+- updated Thermal Foundation 1.2.6B1
+- updated Mine Factory Reloaded 2.8.2B1-200
+
+TODO:
+

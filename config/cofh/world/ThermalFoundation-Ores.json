@@ -1,5 +1,5 @@
 {
-    "aluminum_bauxite": {
+    "aluminumBauxite": {
         "template": "uniform",
         "block": [
             {"name": "TConstruct:SearedBrick", "metadata": 5 }
@@ -19,7 +19,7 @@
             {"name": "UndergroundBiomes:metamorphicStone", "metadata": 1},
             {"name": "UndergroundBiomes:metamorphicStone", "metadata": 2},
             {"name": "UndergroundBiomes:metamorphicStone", "metadata": 3},
-            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 4},
+            {"name": "UndergroundBiomes:metamorphicStone", "metadata": 5},
             {"name": "UndergroundBiomes:metamorphicStone", "metadata": 5},
             {"name": "UndergroundBiomes:metamorphicStone", "metadata": 6},
             {"name": "UndergroundBiomes:metamorphicStone", "metadata": 7},
@@ -46,13 +46,12 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [ -112,-34,-23,-17,-1, 1, 7, 17, 66 ]
     },
-    "surface_aluminum": {
+    "surfaceAluminum": {
         "template": "surface",
-        "followTerrain": "true",
         "block": [
-            {"name": "TConstruct:TConstruct:GravelOre", "metadata": 4, 
+            {"name": "TConstruct:GravelOre", "metadata": 4, 
                 "weight":80 },
-            {"name": "TConstruct:TConstruct:GravelOre", "metadata": 0,
+            {"name": "TConstruct:GravelOre", "metadata": 0,
                 "weight":15 },
             {"name": "ThermalFoundation:Ore", "metadata": 4, 
                 "weight":5 }
@@ -93,11 +92,12 @@
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 6},
             {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 7}
         ],
+        "followTerrain": "true",
         "clusterSize": 6,
         "numClusters": 8,
         "minHeight": 64,
         "maxHeight": 128,
-        "retrogen": "true",
+        "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "dictionary", "entry": ["WET", "HOT"] }
@@ -105,7 +105,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [ -112,-34,-23,-17,-1, 1, 7, 17, 66 ]
     },
-    "alluvial_gems": {
+    "alluvialGems": {
         "template": "uniform",
         "block": [
             { "name": "diamond_ore", "weight" : 45 },
@@ -156,7 +156,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [ -112,-34,-23,-17,-1, 17, 7, 1, 66 ]
     },
-    "alluvial_gravel_bed": {
+    "alluvialGravelBed": {
         "template": "uniform",
         "block": [
             { "name" : "gravel", "weight" : 90},
@@ -231,7 +231,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [ -112,-34,-23,-17,-1, 17, 7, 1, 66 ]
      },
-    "certus quartz": {
+    "certusQuartz": {
         "template": "uniform",
         "block": [
             {"name": "appliedenergistics2:tile.OreQuartz", "weight":93},
@@ -364,7 +364,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [ -112,-34,-23,-17,-1, 1, 7, 17, 66 ]
     },
-    "lead_silver": {
+    "leadSilver": {
         "template": "uniform",
         "block": [
             {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 70},
@@ -497,7 +497,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [ -112,-34,-23,-17,-1, 1, 7, 17, 66 ]
      },
-    "nickel_laterites": {
+    "nickelLaterites": {
         "template": "uniform",
         "block": [
             {"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 80},
@@ -594,7 +594,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [ -112,-34,-23,-17,-1, 1, 7, 17, 66 ]
     },
-    "desert_silver_lead": {
+    "desertSilverLead": {
         "template": "uniform",
         "block": [
             {"name": "ThermalFoundation:Ore", "metadata": 2, "weight":80},
@@ -729,7 +729,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [ -112,-34,-23,-17,-1, 1, 7, 17, 66 ]
     },
-    "alluvial_tin": {
+    "alluvialTin": {
         "template": "uniform",
         "block": {"name": "ThermalFoundation:Ore", "metadata": 1},
         "material": [

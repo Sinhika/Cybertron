@@ -1,18 +1,21 @@
 {
-    "erebus_lignite": {
+    "erebusLignite": {
         "template": "uniform",
+        "block": {"name": "UndergroundBiomes:sedimentaryStone", "metadata": 4},
         "generator": "plate",
-        "block": "UndergroundBiomes:ligniteCoal",
-        "material": "erebus:umberstone",
-        "clusterSize": 20,
+        "material": { "name" : "erebus:umberstone", "metadata" : 0},
         "sizeVariance": 10,
+        "slim" : "false",
         "height" : 2,
+        "clusterSize": 20,
         "numClusters": 10,
         "minHeight": 1,
         "maxHeight": 128,
-        "retrogen": "true",
+        "retrogen": "false",
         "biomeRestriction": "whitelist",
-        "biomes": ["Submerged Swamp"],
+        "biomes": [
+            { "type" : "name", "entry": ["Submerged Swamp"] } 
+        ],
         "dimensionRestriction": "whitelist",
         "dimensions": [ 66 ]
     }

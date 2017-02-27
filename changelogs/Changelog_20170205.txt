@@ -1,0 +1,17 @@
+UPDATE NOTES FOR February 5, 2017
+
+DONE:
+
+- removed Small Boats due to world-loading issues
+- updated BuildCraft to 7.1.19 (final)
+- updated Carpenter's Blocks to 3.3.8.1
+- updated EnderCore to 1.7.10-0.2.0.39_beta
+- updated Ewy's Workshop to 1.1.5
+- updated Forestry to 4.2.16.64
+- updated GrowthCraft Community Edition to 1.7.10-2.7.2
+- updated Storage Drawers to 1.7.10-1.10.8
+
+DONE (client-only):
+- updated Cacti to 1.0.1-1.7.10
+- updated JourneyMap to 1.7.10-5.1.4p2
+

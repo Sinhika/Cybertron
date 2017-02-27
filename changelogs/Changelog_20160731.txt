@@ -1,0 +1,21 @@
+UPDATE NOTES FOR Late-July 2016
+
+NOT DONE:
+
+- any further updates to PlantMegaPack. 10pak quit modding again
+and no downloads of any version of PMP are currently legitimately available.
+
+DONE:
+
+- updated AE2 to rev3: rev3-beta-6 - last 1.7.10 version?
+- updated AE2 Stuff to rev3: 0.5.1.9 - to be compatible.
+- updated Ender IO 1.7.10-2.3.0.428_beta
+- added Ender IO Addons 0.10.11 - adds Agricraft Farming Station, among others
+- updated Fossils & Archaeology Revival 7.3.1 - major update
+- updated GrowthCraft 2.6.2
+- added Immersive Engineering 0.7.7
+- added LLibrary 1.4.2-1.7.10 for new Fossils & Archaeology version
+- updated LLibrary 1.5.1-1.7.10 - important bug fixes
+- updated Ridiculous World 0.4 - fixes incompatibility with IE
+- removed VersionChecker - redundant
+

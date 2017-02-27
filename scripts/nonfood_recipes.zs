@@ -105,10 +105,42 @@ recipes.addShaped( <erebus:bambooTorch>,
 
 
 # alternate black dye recipe, for the squidless
-
 recipes.addShapeless( <ExtrabiomesXL:extrabiomes.dye:0>,
     [<ore:dyeCyan>,<ore:dyeMagenta>,<ore:dyeYellow>]);
 
 # MFR fertilizer --> Forestry fertilizer
 recipes.addShapeless( <Forestry:fertilizerCompound>, 
                      [<MineFactoryReloaded:fertilizer>]);
+
+# Metallurgy fertilizer --> Forestry fertilizer
+recipes.addShapeless(<Forestry:fertilizerCompound>,
+                     [<Metallurgy:fertilizer>]);
+
+# change windmill to electrical steel & iron gear
+recipes.removeShaped(<Additional-Buildcraft-Objects:windmillBlock>);
+recipes.addShaped(<Additional-Buildcraft-Objects:windmillBlock>,
+    [[<ore:gearIron>, <ore:ingotElectricalSteel>, <ore:gearIron>],
+     [<ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, 
+        <ore:ingotElectricalSteel> ],
+     [<ore:gearIron>, <ore:ingotElectricalSteel>, <ore:gearIron>]
+    ]);
+
+# oredict candilla wax, but not GC beeswax, because GC beeswax is an ingot.
+<ore:itemBeeswax>.add(<GardenCore:wax>);
+
+# if Forestry beeswax is a nugget, GC beeswax is an ingot. 
+# make the packaging recipes.
+recipes.addShaped(<Growthcraft|Bees:grcbees.BeesWax>, 
+    [[<ore:itemBeeswax>, <ore:itemBeeswax>, <ore:itemBeeswax> ],
+     [<ore:itemBeeswax>, <ore:itemBeeswax>, <ore:itemBeeswax> ],
+     [<ore:itemBeeswax>, <ore:itemBeeswax>, <ore:itemBeeswax> ]
+    ]);
+
+recipes.addShapeless(<Forestry:beeswax>*9, 
+    [<Growthcraft|Bees:grcbees.BeesWax>]);
+
+# pipe waterproofing can be made from all slimeballs, glue & rubber.
+recipes.addShapeless(<BuildCraft|Transport:pipeWaterproof>, 
+    [<ore:slimeball>]);
+recipes.addShapeless(<BuildCraft|Transport:pipeWaterproof>, 
+    [<MineFactoryReloaded:rubber.raw>]);
